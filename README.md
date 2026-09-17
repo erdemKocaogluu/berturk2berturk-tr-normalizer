@@ -40,10 +40,10 @@ The top 3 checkpoints by `selection_score` are kept on disk; the best one is pro
 
 ### Held-out gold sets (naturally occurring, human-written Turkish — never seen during training)
 
-| Test set | n | WER (model) | WER (no correction) | F1 | Over-correction |
-|---|---|---|---|---|---|
-| tweets | 1,742 | 0.163 | 0.336 | 0.666 | 0.8% |
-| boun | 507 | 0.157 | 0.129 | 0.543 | 6.4% |
+| Test set | n | WER (model) | WER (no correction) | CER (model) | CER (no correction) | F1 | Over-correction |
+|---|---|---|---|---|---|---|---|
+| tweets | 1,742 | 0.163 | 0.336 | 0.0345 | 0.0707 | 0.666 | 0.8% |
+| boun | 507 | 0.157 | 0.129 | 0.0212 | 0.0154 | 0.543 | 6.4% |
 
 - *tweets* — Köksal, A. T., Bozal, Ö., Yürekli, E., & Gezici, G. (2020). [#Turki$hTweets: A Benchmark Dataset for Turkish Text Correction](https://aclanthology.org/2020.findings-emnlp.374/). *Findings of ACL: EMNLP 2020*, pages 4190–4198.
 - *boun* — Kara, A., Marouf Sofian, F., Bond, A., & Şahin, G. (2023). [GECTurk: Grammatical Error Correction and Detection Dataset for Turkish](https://aclanthology.org/2023.findings-ijcnlp.26/). *Findings of ACL: IJCNLP-AACL 2023*, pages 278–290.
